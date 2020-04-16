@@ -2,7 +2,7 @@
 def count_strings(array)
   total = 0
   array.count do 
-    array.include? Integer
+    array.include? String
  
     total += 1 
   end 
