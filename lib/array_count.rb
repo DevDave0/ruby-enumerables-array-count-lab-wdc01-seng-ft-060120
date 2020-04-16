@@ -1,8 +1,8 @@
 
 def count_strings(array)
   total = 0
-  array.count do |i|
-    i.include? Integer
+  array.count do 
+    array.include? Integer
  
     total += 1 
   end 
