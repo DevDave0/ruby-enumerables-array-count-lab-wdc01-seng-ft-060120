@@ -18,5 +18,5 @@ def count_empty_strings(array)
     element == ""
     total += 1 
   end 
-  total 
+  
 end
