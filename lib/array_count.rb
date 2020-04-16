@@ -1,9 +1,8 @@
 
 def count_strings(array)
   total = 0
-  array.count do 
-    array.include? String
- 
+  array.count(String) do 
+   
     total += 1 
   end 
   
