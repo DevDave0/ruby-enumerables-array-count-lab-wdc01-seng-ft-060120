@@ -2,7 +2,7 @@
 def count_strings(array)
   
   array.count do |element|
-    !element == Integer
+    element == String
    
   end 
   
